@@ -6,6 +6,16 @@ public class Customer{
     private String Phone;
     private String Email;
 
+    public Customer(){
+        this.Id = -1;
+        this.Title = "NA";
+        this.FirstName = "NA";
+        this.LastName = "NA";
+        this.Phone = "NA";
+        this.Email = "NA";
+    }
+
+
     public Customer(int id, String title, String firstname, String lastname, String phone, String email){
         this.Id = id;
         this.Title = title;

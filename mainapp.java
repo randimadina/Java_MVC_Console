@@ -4,6 +4,7 @@
 
 public class mainapp{
     public static void main(String[] argc){
-        
+        CustomerController ctrlObj = new CustomerController();
+        ctrlObj.DisplayCustomerDetails();
     }
 }
