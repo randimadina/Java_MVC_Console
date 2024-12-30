@@ -34,6 +34,7 @@ public class mainapp{
             switch(userInput){
                 case 1: {ctrlCustomerObj.DisplayCustomerDetails();  break;}
                 case 2: {ctrlRoomObj.DisplayRoomDetails();  break;}
+                case 3: {ctrlRoomObj.DisplayRoomList();break;}
                 case 0: break;
                 default: {System.out.println("Error: user has entered an unrecognizable option.");  break;}
             }
@@ -48,6 +49,7 @@ public class mainapp{
         System.out.println("---------");
         System.out.println("1. Customers");
         System.out.println("2. Rooms");
+        System.out.println("3. Room List");
         System.out.println("0. Exit");
         System.out.print("Enter your option: ");
     }
